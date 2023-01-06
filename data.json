@@ -5,6 +5,8 @@
       "dni": "39320477",
       "nacionalidad":"argentina",
       "provincia":"Formosa",
+      "nro_celular":"3704012192",
+      "email":"alejandra.maza1@gmail.com",
       "domicilios": {
                     "real":
                     {
@@ -35,7 +37,7 @@
           "institucion":"I.S.F.D. y T. Victor Manuel Almenara",
           "lugar":"Mayor Villafañe",
           "date_inicio":"2014-02-27",
-          "date_finalizacion":"2018-12-12",
+          "date_finalizacion":"2017-12-12",
           "promedio":"9.46"
         },
         {
@@ -75,7 +77,25 @@
         }
 
       ],
-      "experiencia_laboral":[]
+      "experiencia_laboral":[{
+        "descripcion":"Facilitador TIC",
+        "lugar":"escuelas de la delegación zonal de Mayor Villafañe",
+        "year_desde":"2018",
+        "year_hasta":"2020"
+      },
+      {
+        "descripcion":"Pasante",
+        "lugar":"Instituo Politécnico Formosa",
+        "year_desde":"2021",
+        "year_hasta":"2021"
+      },
+      {
+        "descripcion":"Jefe de Trabajos Prácticos",
+        "lugar":"Instituo Politécnico Formosa",
+        "year_desde":"2022",
+        "year_hasta":"2022"
+      }
+    ]
     }
    
   ]
