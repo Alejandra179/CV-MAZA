@@ -109,7 +109,9 @@
         "year_desde":"2022",
         "year_hasta":"2022"
       }
-    ]
+    ],
+    "soft_skills":["trabajo en equipo","adaptabilidad", "aprendizaje constante e independiente"],
+    "hard_skills":["Javascript","HTML","CSS","Arduino","PHP","SQL","R"]
     }
    
   ]
