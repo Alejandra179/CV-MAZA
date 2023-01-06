@@ -13,6 +13,7 @@
                       "localidad":"Formosa",
                       "calle":"20",
                       "numero":"2",
+                      "barrio":"Nueva Formosa",
                       "observaciones":"Mz.73"
                     },
                     "legal":
@@ -20,6 +21,7 @@
                       "localidad":"Mayor Villafañe",
                       "calle":"Av. Independencia",
                       "numero":"1210",
+                      "barrio":"Eva Perón",
                       "observaciones":""
                     }
     },"date_nacimiento": "1996-07-30",
@@ -82,6 +84,18 @@
         "lugar":"escuelas de la delegación zonal de Mayor Villafañe",
         "year_desde":"2018",
         "year_hasta":"2020"
+      },
+      {
+        "descripcion":"Prof. De TIC ",
+        "lugar":"I.S.F.D. y T. Víctor Manuel Almenara",
+        "year_desde":"2019",
+        "year_hasta":"2019"
+      },
+      {
+        "descripcion":"Profesora de Matemática",
+        "lugar":"CESEP N°55",
+        "year_desde":"2020",
+        "year_hasta":"2021"
       },
       {
         "descripcion":"Pasante",
