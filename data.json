@@ -1,0 +1,82 @@
+[
+    {
+      "name": "Romina Alejandra",
+      "lastname": "Maza",
+      "dni": "39320477",
+      "nacionalidad":"argentina",
+      "provincia":"Formosa",
+      "domicilios": {
+                    "real":
+                    {
+                      "localidad":"Formosa",
+                      "calle":"20",
+                      "numero":"2",
+                      "observaciones":"Mz.73"
+                    },
+                    "legal":
+                    {
+                      "localidad":"Mayor Villafañe",
+                      "calle":"Av. Independencia",
+                      "numero":"1210",
+                      "observaciones":""
+                    }
+    },"date_nacimiento": "1996-07-30",
+      "titulos": [
+        {
+          "descripcion":"Educación Secundaria con Orientación en Ciencias Naturales",
+          "institucion":"E.P.E.S. N°11",
+          "lugar":"Mayor Villafañe",
+          "date_inicio":"2008-03-15",
+          "date_finalizacion":"2013-12-05",
+          "promedio":"9.38"
+        },
+        {
+          "descripcion":"Profesorado de Educación Secundaria en Matemática",
+          "institucion":"I.S.F.D. y T. Victor Manuel Almenara",
+          "lugar":"Mayor Villafañe",
+          "date_inicio":"2014-02-27",
+          "date_finalizacion":"2018-12-12",
+          "promedio":"9.46"
+        },
+        {
+          "descripcion":  "Técnica en Desarrollo de Software",
+          "institucion":"Instituto Politécnico Formosa",
+          "lugar":"Formosa",
+          "date_inicio":"2020-03-05",
+          "date_finalizacion":"2022-12-03",
+          "promedio":"9.20"
+    }
+  ],
+      "certificados": [
+        {
+          "descripcion":"Ciencia de Datos",
+          "otorgado_por":"U.N.C., F.C.E.F. y N., en conjunto con la Escuela de Negocios Mundos E",
+          "year":"2021"
+        },
+        {
+          "descripcion":"#SéProgramar",
+          "otorgado_por":"Argentina Programa",
+          "year":"2021"
+        },
+        {
+          "descripcion":"Curso Básico de MongoDB",
+          "otorgado_por":"Universidad de Mongo",
+          "year":"2020"
+        },
+        {
+          "descripcion":"Tecnologias Educativas",
+          "otorgado_por":"UTN",
+          "year":"2019"
+        }
+        ,{
+          "descripcion":"Reflexiones en torno al Algebra y las Funciones",
+          "otorgado_por":"Nuestra Escuela",
+          "year":"2018"
+        }
+
+      ],
+      "experiencia_laboral":[]
+    }
+   
+  ]
+  
