@@ -1,12 +1,26 @@
 html {height: 100%;}
-body {background-image: linear-gradient(to right, #FFFFFF, rgb(255, 122, 89));}
+body {
+    background-color: cornflowerblue;
+}
 
 .card{
-    background-color:khaki
+    background-image: radial-gradient(circle at 50% -20.71%, #ffdfda 0, #ffdfd8 6.25%, #ffe0d5 12.5%, #ffe1d3 18.75%, #fee2d1 25%, #fbe3cf 31.25%, #f8e4ce 37.5%, #f5e5cd 43.75%, #f2e6cd 50%, #eee7cd 56.25%, #ebe8ce 62.5%, #e7e9cf 68.75%, #e3ead0 75%, #dfebd2 81.25%, #dcecd4 87.5%, #d8edd7 93.75%, #d5edda 100%);
 }
-.fs-2{
+.titulo{
     color: darkcyan;
+
+    font-weight: bolder;
 }
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-  }
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h4,h5{
+    font-weight: bolder;
+}
+img{
+    width: 50;
+    height: 50;
+
+}

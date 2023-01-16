@@ -36,7 +36,7 @@ fetch("./data.json", { mode: "no-cors" }) // desactivar CORS porque la ruta no c
               <i class="fa-solid ${icons[prop]}"></i>
             </div>
             <div>
-              <h4 class="fs-2">${prop}</h4>
+              <h5 class="fs-2">${prop}</h5>
               <p>${data[0][prop]}</p>
             </div>
           </div>`
@@ -45,7 +45,7 @@ fetch("./data.json", { mode: "no-cors" }) // desactivar CORS porque la ruta no c
     }
     sobre_mi.innerText=data[0].sobre_mi;
     data[0].titulos.forEach(element=>{
-     educacion.innerHTML+=` <p><strong>${element.institucion}</strong></p>
+     educacion.innerHTML+=` <p class="titulo"><strong>${element.institucion}</strong></p>
      <ul>
        <li>${element.descripcion}</li>
        <li>${element.lugar}</li>
@@ -53,7 +53,7 @@ fetch("./data.json", { mode: "no-cors" }) // desactivar CORS porque la ruta no c
      </ul>`
     })
     data[0].certificados.forEach(element=>{
-      educacion.innerHTML+=` <p><strong>${element.descripcion}</strong></p>
+      educacion.innerHTML+=` <p class="titulo"><strong>${element.descripcion}</strong></p>
       <ul>
         <li>${element.otorgado_por}</li>
         <li>${element.year}</li>
@@ -61,7 +61,7 @@ fetch("./data.json", { mode: "no-cors" }) // desactivar CORS porque la ruta no c
       </ul>`
      })
     data[0].experiencia_laboral.forEach(element=>{
-      exp_laboral.innerHTML+=` <p><strong>${element.descripcion}</strong></p>
+      exp_laboral.innerHTML+=` <p class="titulo"><strong>${element.descripcion}</strong></p>
       <ul>
         <li>${element.lugar}</li>
         <li>${element.year_desde} hasta ${element.year_hasta}</li>
