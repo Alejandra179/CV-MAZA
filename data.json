@@ -5,26 +5,25 @@
       "dni": "39320477",
       "nacionalidad":"argentina",
       "provincia":"Formosa",
-      "nro_celular":"3704012192",
-      "email":"alejandra.maza1@gmail.com",
-      "domicilios": {
-                    "real":
-                    {
-                      "localidad":"Formosa",
-                      "calle":"20",
-                      "numero":"2",
-                      "barrio":"Nueva Formosa",
-                      "observaciones":"Mz.73"
-                    },
-                    "legal":
-                    {
+      "Teléfono":"3704012192",
+      "Email":"alejandra.maza1@gmail.com",
+      "sobre_mi":"Me considero una persona capaz de adaptarse a diferentes circunstancias y tareas, responsable, comprometida ya veces un poco perfeccionista, me gusta trabajar en equipo",
+      "direccion": [{
+                    "tipo":"Real", 
+                    "localidad":"Formosa",
+                    "calle":"20",
+                    "numero":"2",
+                    "barrio":"Nueva Formosa",
+                    "observaciones":"Mz.73"
+                    },{
+                    "tipo":"Legal",
                       "localidad":"Mayor Villafañe",
                       "calle":"Av. Independencia",
                       "numero":"1210",
                       "barrio":"Eva Perón",
                       "observaciones":""
                     }
-    },"date_nacimiento": "1996-07-30",
+    ],"Fecha nacimiento": "1996-07-30",
       "titulos": [
         {
           "descripcion":"Educación Secundaria con Orientación en Ciencias Naturales",
@@ -81,37 +80,50 @@
       ],
       "experiencia_laboral":[{
         "descripcion":"Facilitador TIC",
-        "lugar":"escuelas de la delegación zonal de Mayor Villafañe",
+        "lugar":"Mayor Villafañe",
         "year_desde":"2018",
-        "year_hasta":"2020"
+        "year_hasta":"2020",
+        "tareas":"Brindando asistencia técnica y pedagógica a las diferentes escuelas de la delegación, nivel inicial, primario, secundario, terciario y ciclos rurales"
       },
       {
         "descripcion":"Prof. De TIC ",
         "lugar":"I.S.F.D. y T. Víctor Manuel Almenara",
         "year_desde":"2019",
-        "year_hasta":"2019"
+        "year_hasta":"2019",
+        "tareas":"Repación de netbook, mantenimiento y actualización de aplicación web"
       },
       {
         "descripcion":"Profesora de Matemática",
         "lugar":"CESEP N°55",
         "year_desde":"2020",
-        "year_hasta":"2021"
+        "year_hasta":"2021",
+        "tareas":"Dictando clases de matemática a jovenes adultos de turno noche"
       },
       {
         "descripcion":"Pasante",
-        "lugar":"Instituo Politécnico Formosa",
+        "lugar":"Instituto Politécnico Formosa",
         "year_desde":"2021",
-        "year_hasta":"2021"
+        "year_hasta":"2021",
+        "tareas":"Desarrollando proyecto multidisciplinares, combinando la mecatrónica y el desarrollo de software, y como auxiliar en las materias Algoritmos y Estructuras de Datos, Taller en Motivación y Valores, Desafios Algoritmicos/Matemáticos"
       },
       {
         "descripcion":"Jefe de Trabajos Prácticos",
         "lugar":"Instituo Politécnico Formosa",
         "year_desde":"2022",
-        "year_hasta":"2022"
+        "year_hasta":"2022",
+        "tareas":"Desarrollando proyecto multidisciplinares, combinando la mecatrónica y el desarrollo de software, y como auxiliar en las materias Algoritmos y Estructuras de Datos, Introducción a R para análisis de Datos, Estadistica y Taller de Programación II"
       }
     ],
-    "soft_skills":["trabajo en equipo","adaptabilidad", "aprendizaje constante e independiente"],
-    "hard_skills":["Javascript","HTML","CSS","Arduino","PHP","SQL","R"]
+    
+    "hard_skills":[
+                    {"descripcion":"Javascript","nivel":"70"},
+                    {"descripcion":"HTML","nivel":"90"},
+                    {"descripcion":"CSS","nivel":"50"},
+                    {"descripcion":"Arduino","nivel":"40"},
+                    {"descripcion":"PHP","nivel":"60"}
+                    ,{"descripcion":"SQL","nivel":"50"},
+                    {"descripcion":"R","nivel":"40"}
+                  ]
     }
    
   ]
